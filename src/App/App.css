@@ -1,0 +1,119 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  min-height: 5vh;
+  background-color: #f0f9ff;
+  margin: 0;
+  padding: 0;
+}
+
+.nav p {
+  margin: 0;
+}
+
+.welcome {
+  position: relative;
+  min-height: 45vh;
+  background-color: #f0f9ff;
+  margin: 0;
+  padding-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: left;
+}
+
+.welcome h1 {
+  color: #0c4a6e;
+  font-size: calc(12px + 6vw);
+  margin: 0;
+  animation: 1s ease-out 0s 1 slideInFromOcean;
+}
+.welcome p {
+  margin: 0;
+  font-size: calc(10px + 2vw);
+  color: #0c4a6e;
+  opacity: 0;
+  animation: 1s ease-out 1s 1 slideInFromOcean;
+  animation-fill-mode: forwards;
+}
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 50vh;
+  background-color: #0c4a6e;
+  overflow: hidden;
+}
+section:before,
+section:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  min-width: 300vw;
+  min-height: 300vw;
+  background-color: #f0f9ff;
+  animation: rotate linear infinite;
+}
+section:before {
+  bottom: 15vh;
+  border-radius: 45%;
+  animation-duration: 10s;
+}
+section:after {
+  bottom: 12vh;
+  opacity: 0.5;
+  border-radius: 47%;
+  animation-duration: 10s;
+}
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, 0) rotateZ(0deg);
+  }
+  50% {
+    transform: translate(-50%, -2%) rotateZ(180deg);
+  }
+  100% {
+    transform: translate(-50%, 0%) rotateZ(360deg);
+  }
+}
+
+@keyframes slideInFromOcean {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.whoami {
+  min-height: 100vh;
+  background-color: #0c4a6e;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  color: #f0f9ff;
+}
+
+.projects {
+  min-height: 100vh;
+  background-color: #0c4a6e;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  color: #f0f9ff;
+}
