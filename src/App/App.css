@@ -7,7 +7,7 @@
   z-index: 10;
   position: sticky;
   top: 0;
-  min-height: 5vh;
+  min-height: 5svh;
   background-color: #f0f9ff;
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@
 
 .welcome {
   position: relative;
-  min-height: 45vh;
+  min-height: 45svh;
   background-color: #f0f9ff;
   margin: 0;
   padding-left: 10vw;
@@ -50,7 +50,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 50vh;
+  min-height: 50svh;
   background-color: #0c4a6e;
   overflow: hidden;
 }
