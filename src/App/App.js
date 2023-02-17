@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import portrait from '../images/portrait.png';
 import arrow from '../images/arrow.svg';
-import { HiDownload } from 'react-icons/hi';
+import { HiCloudDownload } from 'react-icons/hi';
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <ul className='nav'>
         <li>
           <a className='cv' href='default.asp'>
-            <i>
-              <HiDownload />
+            <i id='downArrow'>
+              <HiCloudDownload />
             </i>
             <b>Résumé</b>
           </a>
