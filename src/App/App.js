@@ -2,22 +2,28 @@ import React from 'react';
 import './App.css';
 import portrait from '../images/portrait.png';
 import arrow from '../images/arrow.svg';
+import { HiDownload } from 'react-icons/hi';
 
 function App() {
   return (
     <div>
       <ul className='nav'>
         <li>
-          <a href='default.asp'>Resume</a>
+          <a className='cv' href='default.asp'>
+            <i>
+              <HiDownload />
+            </i>
+            <b>Résumé</b>
+          </a>
         </li>
         <li>
-          <a href='#about'>About</a>
+          <a href='about.asp'>Contact Me</a>
         </li>
         <li>
           <a href='#projects'>Projects</a>
         </li>
         <li>
-          <a href='about.asp'>Contact Me</a>
+          <a href='#about'>About</a>
         </li>
       </ul>
 

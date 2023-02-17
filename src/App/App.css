@@ -18,11 +18,13 @@
 .nav li {
   float: right;
   opacity: 0;
+  text-align: center;
 }
 
 .nav a {
   font-size: calc(5px + 1vw);
   display: block;
+  min-width: 10vw;
   padding: calc(5px + 1vw);
   text-decoration: none;
   font-weight: 600;
@@ -55,9 +57,22 @@
   margin: 0;
 }
 
+.nav a i {
+  display: none;
+}
+
+.nav a:hover i {
+  display: block;
+  padding: 0px 2svw 0px 2svw;
+}
+
+.nav a:hover b {
+  display: none;
+}
+
 .welcome {
   position: relative;
-  min-height: 45svh;
+  min-height: 50svh;
   background-color: #f0f9ff;
   margin: 0;
   padding-left: 10vw;
@@ -84,7 +99,7 @@
 
 .arrow {
   position: absolute;
-  top: 45vh;
+  top: 40vh;
   right: 50vw;
   opacity: 0;
   animation: 1s ease-out 1.8s 1 slideInFromSky;
