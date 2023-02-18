@@ -2,7 +2,10 @@ import React from 'react';
 import './App.css';
 import portrait from '../images/portrait.png';
 import arrow from '../images/arrow.svg';
-import { HiCloudDownload } from 'react-icons/hi';
+import { HiOutlineCloudDownload } from 'react-icons/hi';
+import { HiCode } from 'react-icons/hi';
+import { HiOutlineUser } from 'react-icons/hi';
+import { HiOutlineMail } from 'react-icons/hi';
 
 function App() {
   return (
@@ -10,20 +13,35 @@ function App() {
       <ul className='nav'>
         <li>
           <a className='cv' href='default.asp'>
-            <i id='downArrow'>
-              <HiCloudDownload />
+            <i>
+              <HiOutlineCloudDownload />
             </i>
             <b>Résumé</b>
           </a>
         </li>
         <li>
-          <a href='about.asp'>Contact Me</a>
+          <a className='contact' href='about.asp'>
+            <i>
+              <HiOutlineMail />
+            </i>
+            <b>Contact Me</b>
+          </a>
         </li>
         <li>
-          <a href='#projects'>Projects</a>
+          <a href='#projects' className='proj'>
+            <i>
+              <HiCode />
+            </i>
+            <b>Projects</b>
+          </a>
         </li>
         <li>
-          <a href='#about'>About</a>
+          <a href='#about' className='about'>
+            <i>
+              <HiOutlineUser />
+            </i>
+            <b>About</b>
+          </a>
         </li>
       </ul>
 
