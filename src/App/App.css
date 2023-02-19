@@ -276,3 +276,13 @@ section:after {
   padding-right: 10vw;
   color: #f0f9ff;
 }
+
+.contactpage {
+  min-height: 100vh;
+  background-color: #0c4a6e;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  color: #f0f9ff;
+}

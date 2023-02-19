@@ -20,7 +20,7 @@ function App() {
           </a>
         </li>
         <li>
-          <a className='contact' href='about.asp'>
+          <a className='contact' href='#contactpage'>
             <i>
               <HiOutlineMail />
             </i>
@@ -61,6 +61,10 @@ function App() {
       <div className='projects' id='projects'>
         <h1>What have I been working on?</h1>
         <p>Cool stuff here</p>
+      </div>
+      <div className='contactpage' id='contactpage'>
+        <h1>Want to get in touch?</h1>
+        <p>Send me a message</p>
       </div>
     </div>
   );
