@@ -1,56 +1,21 @@
 import React from 'react';
 import './App.css';
+import NavBar from '../Components/NavBar/NavBar';
 import portrait from '../images/portrait.png';
 import arrow from '../images/arrow.svg';
-import { HiOutlineCloudDownload } from 'react-icons/hi';
-import { HiCode } from 'react-icons/hi';
-import { HiOutlineUser } from 'react-icons/hi';
-import { HiOutlineMail } from 'react-icons/hi';
 
 function App() {
   return (
     <div>
-      <ul className='nav'>
-        <li>
-          <a className='cv' href='default.asp'>
-            <i>
-              <HiOutlineCloudDownload />
-            </i>
-            <b>Résumé</b>
-          </a>
-        </li>
-        <li>
-          <a className='contact' href='#contactpage'>
-            <i>
-              <HiOutlineMail />
-            </i>
-            <b>Contact Me</b>
-          </a>
-        </li>
-        <li>
-          <a href='#projects' className='proj'>
-            <i>
-              <HiCode />
-            </i>
-            <b>Projects</b>
-          </a>
-        </li>
-        <li>
-          <a href='#about' className='about'>
-            <i>
-              <HiOutlineUser />
-            </i>
-            <b>About</b>
-          </a>
-        </li>
-      </ul>
-
+      <NavBar />
       <div className='welcome'>
         <h1>Andrew Rohling</h1>
         <p>Full-Stack Web Developer.</p>
       </div>
       <section className='waves'>
-        <img className='arrow' src={arrow} alt='An arrow' height='50vh' />
+        <a href='#about'>
+          <img className='arrow' src={arrow} alt='An arrow' height='50vh' />
+        </a>
       </section>
       <div className='whoami' id='about'>
         <p>Hey there, welcome to my little corner of the web!</p>
