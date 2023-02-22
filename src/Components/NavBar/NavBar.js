@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './NavBar.css';
 import { HiOutlineCloudDownload } from 'react-icons/hi';
 import { HiCode } from 'react-icons/hi';
@@ -9,9 +9,18 @@ import { HiOutlineMail } from 'react-icons/hi';
  * An animated sticky NavBar. Includes links to "About", "Contact", "Projects" & "Resume"
  */
 function NavBar() {
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 800) {
+      setColorchange(false);
+    } else {
+      setColorchange(true);
+    }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
   return (
     <div>
-      <ul className='nav'>
+      <ul className={colorChange ? 'nav colorChange' : 'nav'}>
         <li>
           <a className='cv' href='default.asp'>
             <i>

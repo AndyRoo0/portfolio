@@ -5,10 +5,26 @@ body {
   font-family: 'Barlow', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f0f9ff;
+  background-color: #0c4a6e;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Utility Class */
+.onScreen {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateX(0);
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.centre {
+  align-items: center;
 }
