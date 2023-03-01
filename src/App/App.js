@@ -16,10 +16,11 @@ function App() {
       <section className='waves'>
         <a href='#about'>
           <HiChevronDoubleDown className='arrow' />
-          {/* <img className='arrow' src={arrow} alt='An arrow' height='50vh' /> */}
         </a>
       </section>
-      <About />
+      <div id='about'>
+        <About />
+      </div>
       <div className='projects' id='projects'>
         <h1>What have I been working on?</h1>
         <p>Cool stuff here</p>

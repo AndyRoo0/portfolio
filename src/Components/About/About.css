@@ -13,6 +13,17 @@
   float: right;
 }
 
-.whoami p {
-  font-size: calc(10px + 1vw);
+.paragraph {
+  font-size: calc(8px + 1vw);
+  max-width: 60%;
+  text-align: justify;
+}
+
+a {
+  color: #f0f9ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #94a3b8;
 }
