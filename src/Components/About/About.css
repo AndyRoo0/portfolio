@@ -8,10 +8,6 @@
   color: var(--sky);
 }
 
-.line {
-  border-bottom: 2px solid var(--sky);
-}
-
 .inline {
   display: flex;
   justify-content: space-between;
@@ -28,13 +24,4 @@
   display: inline;
   float: right;
   max-height: 50vh;
-}
-
-a {
-  color: var(--sky);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--texthover);
 }

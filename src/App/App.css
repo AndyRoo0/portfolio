@@ -3,6 +3,19 @@
   padding: 0;
 }
 
+.line {
+  border-bottom: 2px solid var(--sky);
+}
+
+a {
+  color: var(--sky);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--texthover);
+}
+
 .welcome {
   position: relative;
   min-height: 50svh;

@@ -1,0 +1,16 @@
+.foot {
+  margin: 0;
+  background-color: var(--ocean);
+  color: var(--sky);
+  padding-bottom: 2vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.footcontainer {
+  min-height: 5vh;
+  border-top: 2px solid var(--sky);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

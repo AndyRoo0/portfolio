@@ -4,6 +4,7 @@ import NavBar from '../Components/NavBar/NavBar';
 import About from '../Components/About/About';
 import Projects from '../Components/Projects/Projects';
 import Contact from '../Components/Contact/Contact';
+import Footer from '../Components/Footer/Footer';
 import { HiChevronDoubleDown } from 'react-icons/hi';
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
       </div>
       <div id='contactpage'>
         <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
