@@ -6,6 +6,7 @@ import { HiOutlineUser } from 'react-icons/hi';
 import { HiOutlineMail } from 'react-icons/hi';
 import { HiDocumentText } from 'react-icons/hi';
 import { BsEyeglasses } from 'react-icons/bs';
+import '../../resources/cv.pdf';
 
 /**
  * An animated sticky NavBar. Includes links to "About", "Contact", "Projects" & "Resume"
@@ -15,7 +16,12 @@ function NavBar() {
     <div>
       <ul className='nav'>
         <li>
-          <a className='cv' href='default.asp'>
+          <a
+            className='cv'
+            href='https://drive.google.com/file/d/1TSpoHES0FE1Ni5XgqtiJ3KAIL7GvroQo/view?usp=share_link'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <i>
               <HiDocumentText />
             </i>
@@ -47,7 +53,7 @@ function NavBar() {
           </a>
         </li>
         <li>
-          <a href='#' className='home'>
+          <a href='#/' className='home'>
             <i>
               <BsEyeglasses />
             </i>
