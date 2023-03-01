@@ -30,6 +30,7 @@ function About() {
           </p>
           <p>
             Coding aside, my interests include cars, motorsport, rock climbing
+            and fish keeping!
           </p>
         </div>
         <img className='portrait' src={portrait} alt='Me' />

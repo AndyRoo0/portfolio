@@ -4,6 +4,7 @@ import { HiOutlineCloudDownload } from 'react-icons/hi';
 import { HiCode } from 'react-icons/hi';
 import { HiOutlineUser } from 'react-icons/hi';
 import { HiOutlineMail } from 'react-icons/hi';
+import { HiDocumentText } from 'react-icons/hi';
 
 /**
  * An animated sticky NavBar. Includes links to "About", "Contact", "Projects" & "Resume"
@@ -15,7 +16,7 @@ function NavBar() {
         <li>
           <a className='cv' href='default.asp'>
             <i>
-              <HiOutlineCloudDownload />
+              <HiDocumentText />
             </i>
             <b>Résumé</b>
           </a>

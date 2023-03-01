@@ -172,23 +172,3 @@ section:after {
     rotate: 360deg;
   }
 }
-
-.projects {
-  min-height: 100vh;
-  background-color: var(--ocean);
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  color: var(--sky);
-}
-
-.contactpage {
-  min-height: 100vh;
-  background-color: var(--ocean);
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  color: var(--sky);
-}

@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import NavBar from '../Components/NavBar/NavBar';
 import About from '../Components/About/About';
-import arrow from '../images/arrow.svg';
+import Projects from '../Components/Projects/Projects';
+import Contact from '../Components/Contact/Contact';
 import { HiChevronDoubleDown } from 'react-icons/hi';
 
 function App() {
@@ -21,13 +22,11 @@ function App() {
       <div id='about'>
         <About />
       </div>
-      <div className='projects' id='projects'>
-        <h1>What have I been working on?</h1>
-        <p>Cool stuff here</p>
+      <div id='projects'>
+        <Projects />
       </div>
-      <div className='contactpage' id='contactpage'>
-        <h1>Want to get in touch?</h1>
-        <p>Send me a message</p>
+      <div id='contactpage'>
+        <Contact />
       </div>
     </div>
   );
