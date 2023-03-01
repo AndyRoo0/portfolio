@@ -7,6 +7,14 @@
   padding-right: 10vw;
 }
 
+.foot a {
+  text-decoration: underline;
+}
+
+.foot p {
+  font-size: initial;
+}
+
 .footcontainer {
   min-height: 5vh;
   border-top: 2px solid var(--sky);

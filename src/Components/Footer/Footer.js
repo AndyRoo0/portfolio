@@ -6,13 +6,38 @@ function Footer() {
     <div className='foot'>
       <div className='footcontainer'>
         <p>Site built by Andrew - Thanks for stopping by!</p>
-        <a href='https://github.com/AndyRoo0/portfolio'>
+        <a
+          href='https://github.com/AndyRoo0/portfolio'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           See this project on GitHub!
         </a>
-        <a href='https://www.websitecarbon.com/'>This website is sustainable</a>
-        <a href='https://codepen.io/raykuo/pen/QgaKrr'>
-          SVG waves credit to Ray
+        <a
+          href='https://www.websitecarbon.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          This website is sustainable
         </a>
+        <p>
+          SVG waves credit to{' '}
+          <a
+            href='https://www.raykuo.com/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Ray's
+          </a>{' '}
+          work on{' '}
+          <a
+            href='https://codepen.io/raykuo/pen/QgaKrr'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Codepen
+          </a>
+        </p>
       </div>
     </div>
   );

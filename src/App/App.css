@@ -7,6 +7,16 @@
   border-bottom: 2px solid var(--sky);
 }
 
+.line h1 {
+  font-size: calc(10px + 4vh);
+}
+
+p {
+  word-spacing: 2px;
+  font-size: calc(8px + 1vw);
+  text-align: justify;
+}
+
 a {
   color: var(--sky);
   text-decoration: none;
