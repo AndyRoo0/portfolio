@@ -5,6 +5,7 @@ import { HiCode } from 'react-icons/hi';
 import { HiOutlineUser } from 'react-icons/hi';
 import { HiOutlineMail } from 'react-icons/hi';
 import { HiDocumentText } from 'react-icons/hi';
+import { BsEyeglasses } from 'react-icons/bs';
 
 /**
  * An animated sticky NavBar. Includes links to "About", "Contact", "Projects" & "Resume"
@@ -43,6 +44,14 @@ function NavBar() {
               <HiOutlineUser />
             </i>
             <b>About</b>
+          </a>
+        </li>
+        <li>
+          <a href='#' className='home'>
+            <i>
+              <BsEyeglasses />
+            </i>
+            <b>Hi!</b>
           </a>
         </li>
       </ul>
