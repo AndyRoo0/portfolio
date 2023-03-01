@@ -6,7 +6,7 @@
 .welcome {
   position: relative;
   min-height: 50svh;
-  background-color: #f0f9ff;
+  background-color: var(--sky);
   margin: 0;
   padding-left: 10vw;
   display: flex;
@@ -16,7 +16,7 @@
 }
 
 .welcome h1 {
-  color: #0c4a6e;
+  color: var(--ocean);
   font-size: calc(12px + 6vw);
   margin: 0;
   animation: 1s ease-out 0s 1 slideInFromOcean;
@@ -24,13 +24,13 @@
 .welcome p {
   margin: 0;
   font-size: calc(10px + 2vw);
-  color: #0c4a6e;
+  color: var(--ocean);
   opacity: 0;
   animation: 1s ease-out 1s 1 slideInFromOcean forwards;
 }
 
 .arrow {
-  color: #f0f9ff;
+  color: var(--sky);
   scale: 2;
   position: absolute;
   top: 45vh;
@@ -46,7 +46,7 @@ section {
   align-items: center;
   flex-direction: column;
   min-height: 50svh;
-  background-color: #0c4a6e;
+  background-color: var(--ocean);
   overflow: hidden;
 }
 section:before,
@@ -56,7 +56,7 @@ section:after {
   left: 50%;
   min-width: 300vw;
   min-height: 300vw;
-  background-color: #f0f9ff;
+  background-color: var(--sky);
   animation: rotate linear infinite;
 }
 section:before {
@@ -175,20 +175,20 @@ section:after {
 
 .projects {
   min-height: 100vh;
-  background-color: #0c4a6e;
+  background-color: var(--ocean);
   padding-top: 10vh;
   padding-bottom: 10vh;
   padding-left: 10vw;
   padding-right: 10vw;
-  color: #f0f9ff;
+  color: var(--sky);
 }
 
 .contactpage {
   min-height: 100vh;
-  background-color: #0c4a6e;
+  background-color: var(--ocean);
   padding-top: 10vh;
   padding-bottom: 10vh;
   padding-left: 10vw;
   padding-right: 10vw;
-  color: #f0f9ff;
+  color: var(--sky);
 }

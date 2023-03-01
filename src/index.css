@@ -13,6 +13,12 @@ code {
     monospace;
 }
 
+/* Global Colours */
+:root {
+  --ocean: #0c4a6e; /*Tailwind Sky 900*/
+  --sky: #f0f9ff; /*Tailwind Sky 50*/
+}
+
 /* Utility Class */
 .onScreen {
   opacity: 1;
