@@ -15,8 +15,9 @@ code {
 
 /* Global Colours */
 :root {
-  --ocean: #0c4a6e; /*Tailwind Sky 900*/
-  --sky: #f0f9ff; /*Tailwind Sky 50*/
+  --ocean: #1e293b; /*Tailwind Sky 900*/
+  --border: #0f172a;
+  --sky: #fffbeb; /*Tailwind Sky 50*/
   --texthover: #a8a29e; /*Tailwind Stone 400*/
 }
 

@@ -20,27 +20,54 @@ function Contact() {
         or forgotten about your message please do send a follow up!{' '}
       </p>
       <div className='links'>
-        <a
-          href='mailto:andrew@eseeds.com'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <MdEmail />
-        </a>
-        <a
-          href='https://github.com/AndyRoo0'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <BsGithub />
-        </a>
-        <a
-          href='https://www.linkedin.com/in/andrewrohling/'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <BsLinkedin />
-        </a>
+        <div className='icon'>
+          <a
+            href='mailto:andrew@eseeds.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <MdEmail />
+          </a>
+          <a
+            href='mailto:andrew@eseeds.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <p>andrew@eseeds.com</p>
+          </a>
+        </div>
+        <div className='icon'>
+          <a
+            href='https://github.com/AndyRoo0'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <BsGithub />
+          </a>
+          <a
+            href='https://github.com/AndyRoo0'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <p>AndyRoo0</p>
+          </a>
+        </div>
+        <div className='icon'>
+          <a
+            href='https://www.linkedin.com/in/andrewrohling/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/andrewrohling/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <p>andrewrohling</p>
+          </a>
+        </div>
       </div>
     </div>
   );

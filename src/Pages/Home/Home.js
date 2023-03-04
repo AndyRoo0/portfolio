@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
-import NavBar from '../Components/NavBar/NavBar';
-import About from '../Components/About/About';
-import Projects from '../Components/Projects/Projects';
-import Contact from '../Components/Contact/Contact';
-import Footer from '../Components/Footer/Footer';
+import './Home.css';
+import NavBar from '../../Components/NavBar/NavBar';
+import About from '../../Components/About/About';
+import Projects from '../../Components/Projects/Projects';
+import Contact from '../../Components/Contact/Contact';
+import Footer from '../../Components/Footer/Footer';
 import { HiChevronDoubleDown } from 'react-icons/hi';
 
 function App() {
