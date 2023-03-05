@@ -20,31 +20,31 @@
   flex-direction: column;
 }
 
-.indy-title {
+.proj-title {
   font-size: 4vw;
   margin: 1vh 0vh 1vh 0vh;
   padding: 0;
 }
 
-.indy-link {
+.proj-link {
   margin: 0;
   padding: 0;
   font-style: italic;
 }
 
-.indy-desc {
+.proj-desc {
 }
 
-.indy-img {
+.proj-img {
   max-height: 60vh;
 }
 
-.indy-img img {
+.proj-img img {
   max-height: 60vh;
   position: relative;
   float: right;
 }
 
-.indy-img img:hover {
+.proj-img img:hover {
   opacity: 80%;
 }
