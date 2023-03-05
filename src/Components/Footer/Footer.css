@@ -10,10 +10,11 @@
 .foot a {
   text-decoration: underline;
   font-weight: 2;
+  font-size: calc(8px + 1vh);
 }
 
 .foot p {
-  font-size: initial;
+  font-size: calc(8px + 1vh);
   font-weight: 2;
 }
 
@@ -23,4 +24,12 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 2vw;
+}
+
+@media only screen and (max-width: 961px) {
+  .footcontainer {
+    display: flex;
+    flex-direction: column;
+  }
 }

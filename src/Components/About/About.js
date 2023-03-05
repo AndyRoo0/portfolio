@@ -19,9 +19,11 @@ function About() {
             <a href='https://www.schoolofcode.co.uk/'>
               School of Code Bootcamp
             </a>
-            , and had a blast. It's been great fun desiging and building sites
-            and programs, picking up and learning a huge range of new tools,
-            watching what I am working on develop and my ideas come to fruition.
+            , and had a blast. I am proud to have been chosen from a pool of
+            over 4000 applicants for the program. It's been great fun desiging
+            and building different sites and programs, picking up and learning a
+            huge range of new tools and watching what I am working on develop,
+            making my ideas come to fruition.
           </p>
           <p>
             Since graduating from the bootcamp I have been building upon the

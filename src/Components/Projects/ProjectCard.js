@@ -13,11 +13,13 @@ function ProjectCard({ details }) {
             rel='noopener noreferrer'
             className='proj-link'
           >
-            View the deployed project here.
+            {details.linktext}
           </a>
 
           <p className='proj-desc'>{details.desc}</p>
-          <p>Click on the image to learn more.</p>
+          <Link to={details.page}>
+            <p className='page-link'>See how it was created</p>
+          </Link>
         </div>
         <div className='proj-img'>
           <Link to={details.page}>
