@@ -16,11 +16,11 @@ function App() {
           <h1>Andrew Rohling</h1>
           <p>Full-Stack Web Developer.</p>
         </div>
-        <section className='waves'>
+        <div className='waves'>
           <a href='#about'>
             <HiChevronDoubleDown className='arrow' />
           </a>
-        </section>
+        </div>
       </div>
       <div id='about'>
         <About />

@@ -67,7 +67,7 @@ a:hover {
   animation: 1s ease-out 1.8s 1 slideInFromSky forwards;
 }
 
-section {
+.waves {
   position: relative;
   display: flex;
   justify-content: center;
@@ -77,8 +77,8 @@ section {
   background-color: var(--ocean);
   overflow: hidden;
 }
-section:before,
-section:after {
+.waves:before,
+.waves:after {
   content: '';
   position: absolute;
   left: 50%;
@@ -87,12 +87,12 @@ section:after {
   background-color: var(--sky);
   animation: rotate linear infinite;
 }
-section:before {
+.waves:before {
   bottom: 15vh;
   border-radius: 45%;
   animation-duration: 10s;
 }
-section:after {
+.waves:after {
   bottom: 12vh;
   opacity: 0.5;
   border-radius: 47%;
