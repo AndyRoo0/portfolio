@@ -1,16 +1,28 @@
 import React from 'react';
+import './pages.css';
+import { TbBarrierBlock } from 'react-icons/tb';
+import { Link } from 'react-router-dom';
 
 function IndyGo() {
   return (
-    <div>
+    <div className='content'>
       <a
         href='https://github.com/SchoolOfCode/indygo'
         target='_blank'
         rel='noopener noreferrer'
-        className='indy-link'
       >
-        View the project on GitHub here.
+        View IndyGo on GitHub here.
       </a>
+      <p>
+        <TbBarrierBlock />
+      </p>
+      <p>This page is still under construction! Check back soon...</p>
+      <Link to='/'>
+        <p>Back to home</p>
+      </Link>
+      <p>
+        <TbBarrierBlock />
+      </p>
     </div>
   );
 }

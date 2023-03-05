@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './NavBar.css';
-import { HiOutlineCloudDownload } from 'react-icons/hi';
+import { HiMenu } from 'react-icons/hi';
 import { HiCode } from 'react-icons/hi';
 import { HiOutlineUser } from 'react-icons/hi';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -14,6 +14,9 @@ import '../../resources/cv.pdf';
 function NavBar() {
   return (
     <div>
+      <div className='menu'>
+        <HiMenu className='burger' />
+      </div>
       <ul className='nav'>
         <li>
           <a
@@ -53,7 +56,7 @@ function NavBar() {
           </a>
         </li>
         <li>
-          <a href='#/' className='home'>
+          <a href='#welcome' className='home'>
             <i>
               <BsEyeglasses />
             </i>

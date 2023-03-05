@@ -56,7 +56,52 @@
   display: none;
 }
 
-.home:hover i {
+.nav a:hover i {
+  display: block;
+  padding: 0px 2vw 0px 2vw;
+  animation: slideInFromSky 0.5s;
+}
+
+.nav a:hover b {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+@media only screen and (max-width: 961px) {
+  .menu {
+    display: inline;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    /* box-sizing: border-box; */
+    top: 0;
+    margin: 0;
+    background-color: var(--sky);
+    list-style-type: none;
+    overflow: hidden;
+  }
+
+  .burger {
+    float: right;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .menu button:focus + .nav,
+  .nav:hover {
+    .nav {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+/* .home:hover i {
   display: block;
   padding: 0px 2vw 0px 2vw;
   animation: slideInFromSky 0.5s;
@@ -84,8 +129,4 @@
   display: block;
   padding: 0px 2svw 0px 2svw;
   animation: slideInFromSky 0.5s;
-}
-
-.nav a:hover b {
-  display: none;
-}
+} */

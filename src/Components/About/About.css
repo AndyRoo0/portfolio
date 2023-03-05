@@ -25,6 +25,11 @@
   padding-left: 5vw;
 }
 
+.caption {
+  font-style: italic;
+  text-align: center;
+}
+
 @media only screen and (max-width: 961px) {
   .inline {
     display: flex;

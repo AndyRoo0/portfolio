@@ -19,11 +19,17 @@ function About() {
             <a href='https://www.schoolofcode.co.uk/'>
               School of Code Bootcamp
             </a>
-            , and had a blast. I am proud to have been chosen from a pool of
-            over 4000 applicants for the program. It's been great fun desiging
-            and building different sites and programs, picking up and learning a
-            huge range of new tools and watching what I am working on develop,
-            making my ideas come to fruition.
+            , and had a blast. I am very proud to have been chosen from a pool
+            of over 4000 applicants for the program. It's been great fun
+            learning how to design and build different sites and programs,
+            picking up a huge range of new tools and watching what I am working
+            on develop, making my ideas come to fruition.
+          </p>
+          <p>
+            I would describe myself as Full-Stack. I love exploring my
+            creativity and designing nice UI/UX & front ends, however I equally
+            enjoy the problem solving and logical stages of the back end.
+            Wherever I am, I aim to build clean, readable & modern code.
           </p>
           <p>
             Since graduating from the bootcamp I have been building upon the
@@ -35,7 +41,12 @@ function About() {
             and keeping home aquariums!
           </p>
         </div>
-        <img className='portrait' src={portrait} alt='Me' />
+        <div className='portrait'>
+          <img className='portrait' src={portrait} alt='Me' />
+          <p className='caption'>
+            Me enjoying a nice cup of tea in the Lake District
+          </p>
+        </div>
       </div>
     </div>
   );

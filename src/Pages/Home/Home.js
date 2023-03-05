@@ -12,7 +12,7 @@ function App() {
     <div>
       <NavBar />
       <div className='landing'>
-        <div className='welcome'>
+        <div className='welcome' id='welcome'>
           <h1>Andrew Rohling</h1>
           <p>Full-Stack Web Developer.</p>
         </div>

@@ -11,7 +11,7 @@
   padding: 2vh 0 2vh 0;
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid var(--texthover);
+  /* border-bottom: 2px solid var(--texthover); */
 }
 
 @media only screen and (max-width: 1281px) {
@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
   }
-  .proj-img img {
+  .col2 img {
     padding: 2vh, 0, 0, 0;
     max-width: 100%;
   }
@@ -32,7 +32,7 @@
 }
 
 .proj-title {
-  font-size: 4vw;
+  font-size: calc(10px + 4vw);
   margin: 1vh 0vh 1vh 0vh;
   padding: 0;
 }
@@ -50,14 +50,14 @@
   margin: 0;
 }
 
-.proj-img {
+.col2 {
 }
 
-.proj-img img {
+.col2 img {
   height: auto;
   width: 45em;
 }
 
-.proj-img img:hover {
+.col2 img:hover {
   opacity: 80%;
 }

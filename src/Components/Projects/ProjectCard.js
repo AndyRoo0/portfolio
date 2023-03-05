@@ -15,13 +15,12 @@ function ProjectCard({ details }) {
           >
             {details.linktext}
           </a>
-
           <p className='proj-desc'>{details.desc}</p>
           <Link to={details.page}>
             <p className='page-link'>See how it was created</p>
           </Link>
         </div>
-        <div className='proj-img'>
+        <div className='col2'>
           <Link to={details.page}>
             <img src={details.img} alt={details.alt}></img>
           </Link>
