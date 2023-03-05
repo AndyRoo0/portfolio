@@ -60,7 +60,7 @@ function NavBar() {
             <i>
               <BsEyeglasses />
             </i>
-            <b>Hi!</b>
+            <b>Home</b>
           </a>
         </li>
       </ul>
