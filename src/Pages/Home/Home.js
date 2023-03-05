@@ -11,15 +11,17 @@ function App() {
   return (
     <div>
       <NavBar />
-      <div className='welcome'>
-        <h1>Andrew Rohling</h1>
-        <p>Full-Stack Web Developer.</p>
+      <div className='landing'>
+        <div className='welcome'>
+          <h1>Andrew Rohling</h1>
+          <p>Full-Stack Web Developer.</p>
+        </div>
+        <section className='waves'>
+          <a href='#about'>
+            <HiChevronDoubleDown className='arrow' />
+          </a>
+        </section>
       </div>
-      <section className='waves'>
-        <a href='#about'>
-          <HiChevronDoubleDown className='arrow' />
-        </a>
-      </section>
       <div id='about'>
         <About />
       </div>

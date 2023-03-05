@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.landing {
+  min-height: 100svh;
+}
+
 .line {
   border-bottom: 2px solid var(--sky);
 }
@@ -13,7 +17,7 @@
 
 p {
   word-spacing: 2px;
-  font-size: calc(8px + 1vw);
+  font-size: calc(8px + 1vh);
   text-align: justify;
   font-weight: 1;
 }
