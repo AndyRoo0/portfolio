@@ -34,7 +34,7 @@ function About() {
           <p>
             Since graduating from the bootcamp I have been building upon the
             core skills I picked up, playing with my own projects and enjoying a
-            little bit of a break!
+            little bit of a break.
           </p>
           <p>
             Coding aside, my interests include cars, motorsport, rock climbing

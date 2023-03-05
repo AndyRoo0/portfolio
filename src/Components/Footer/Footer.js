@@ -11,7 +11,7 @@ function Footer() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          See this site on GitHub!
+          See this site on GitHub
         </a>
         <a
           href='https://www.websitecarbon.com/website/andrewrohling-co-uk/'

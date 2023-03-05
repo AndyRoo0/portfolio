@@ -17,7 +17,7 @@ function Contact() {
       <p>
         I read and do try to reply to every email I receive, but will prioritise
         work related messages over just chatting. If you feel like I have missed
-        or forgotten about your message please do send a follow up!{' '}
+        or forgotten about your message please do send a follow up.{' '}
       </p>
       <div className='links'>
         <div className='icon'>
