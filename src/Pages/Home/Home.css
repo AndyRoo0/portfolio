@@ -15,6 +15,7 @@ p {
   word-spacing: 2px;
   font-size: calc(8px + 1vw);
   text-align: justify;
+  font-weight: 1;
 }
 
 a {

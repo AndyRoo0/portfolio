@@ -14,11 +14,11 @@ function Footer() {
           See this project on GitHub!
         </a>
         <a
-          href='https://www.websitecarbon.com/'
+          href='https://www.websitecarbon.com/website/andrewrohling-co-uk/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          This website is sustainable
+          This website aims to be sustainable
         </a>
         <p>
           SVG waves credit to{' '}
