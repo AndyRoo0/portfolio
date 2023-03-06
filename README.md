@@ -17,8 +17,5 @@ The tech-stack used for this project:<br>
 - Nodejs
 
 <br>
-<br>
-No fancy Nextjs, or Tailwind stuff here.
-<br>
 This project really taught me the importance of designing an application to be mobile-first, as I started this project not that way, and had a not very fun time re-jigging it afterwards. Oh well, it's all good experience.<br>
 Thank you for checking this out! I welcome any feedback, just jot me a message :)
