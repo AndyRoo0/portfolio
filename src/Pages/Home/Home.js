@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <div className='landing'>
+      <section className='landing'>
         <div className='welcome' id='welcome'>
           <h1>Andrew Rohling</h1>
           <p>Full-Stack Web Developer.</p>
@@ -21,19 +21,19 @@ function App() {
             <HiChevronDoubleDown className='arrow' />
           </a>
         </div>
-      </div>
-      <div id='about'>
+      </section>
+      <section id='about'>
         <About />
-      </div>
-      <div id='projects'>
+      </section>
+      <section id='projects'>
         <Projects />
-      </div>
-      <div id='contactpage'>
+      </section>
+      <section id='contactpage'>
         <Contact />
-      </div>
-      <div>
+      </section>
+      <section>
         <Footer />
-      </div>
+      </section>
     </div>
   );
 }

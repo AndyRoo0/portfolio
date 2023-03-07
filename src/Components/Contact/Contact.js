@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div className='contactpage'>
       <div className='line'>
-        <h1>Want to get in touch?</h1>
+        <h2>Want to get in touch?</h2>
       </div>
       <p>
         If you're interested in working together or just want to talk shop (or

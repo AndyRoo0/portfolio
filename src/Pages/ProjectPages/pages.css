@@ -6,3 +6,7 @@
   align-items: center;
   color: var(--sky);
 }
+
+.page-title {
+  font-size: calc(8px + 4vh);
+}

@@ -6,7 +6,7 @@ function About() {
   return (
     <div className='whoami'>
       <div className='line'>
-        <h1>Who am I?</h1>
+        <h2>Who am I?</h2>
       </div>
       <div className='inline'>
         <div className='paragraph'>
@@ -42,7 +42,7 @@ function About() {
           </p>
         </div>
         <div className='portrait'>
-          <img className='portrait' src={portrait} alt='Me' />
+          <img className='portrait' src={portrait} alt='' />
           <p className='caption'>
             Me enjoying a nice cup of tea in the Lake District
           </p>
