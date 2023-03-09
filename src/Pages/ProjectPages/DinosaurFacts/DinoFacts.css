@@ -4,5 +4,39 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url('../../../resources/dinobg.jpg');
+  background-image: url('./Rocks/dinobg.jpg');
+}
+
+.dinopage h2,
+.dinopage h3,
+.wikilink {
+  background-color: #1c1917;
+  padding: 10px;
+  border: 2px solid var(--sky);
+  border-radius: 20px;
+  color: var(--sky);
+}
+
+.rock:hover {
+  animation: pulse 1s linear 0s 1 forwards;
+}
+
+.rock:active,
+.bone:active {
+  transform: translateY(4px);
+}
+
+.back {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+.bone {
+  height: calc(48px + 2vw);
+  max-height: 80px;
+}
+
+.bone:hover {
+  opacity: 80%;
 }

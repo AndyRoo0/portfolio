@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import './DinoFacts.css';
-import { HiOutlineSearch } from 'react-icons/hi';
+import { Link } from 'react-router-dom';
 import Rock1 from './Rocks/Rock1.png';
-import Rock2 from './Rocks/Rock1.png';
-import Rock3 from './Rocks/Rock1.png';
+import Rock2 from './Rocks/Rock2.png';
+import Rock3 from './Rocks/Rock3.png';
+import Bone from './Rocks/bone.png';
 
 function DinoFacts() {
   const [dinoName, setDinoName] = useState('');
@@ -15,24 +16,18 @@ function DinoFacts() {
   const handleClick = async () => {
     switch (clicks) {
       case 0:
-        setImageUrl(Rock1);
-        setClicks(clicks + 1);
-        console.log(clicks);
-        break;
-
-      case 1:
         setImageUrl(Rock2);
         setClicks(clicks + 1);
         console.log(clicks);
         break;
 
-      case 2:
+      case 1:
         setImageUrl(Rock3);
         setClicks(clicks + 1);
         console.log(clicks);
         break;
 
-      case 3:
+      case 2:
         setClicks(0);
         setImageUrl(Rock1);
         const response = await fetch(
@@ -50,23 +45,36 @@ function DinoFacts() {
     }
   };
 
-  const imageswapper = () => {};
-
   return (
-    <div className='dinopage'>
-      <img
-        src={imageUrl}
-        alt='A rock, contains dinosaur fossils'
-        onClick={handleClick}
-      />
-      {dinoName.length > 0 ? (
-        <h2>{dinoName}</h2>
-      ) : (
-        <h2>Click on the button to find a dinosaur!</h2>
-      )}
-      <h3>{dinoDesc}</h3>
-      {dinoUrl.length > 0 && <a href={dinoUrl}>Click here to find out more</a>}
-    </div>
+    <>
+      <section className='dinopage'>
+        <img
+          src={imageUrl}
+          className='rock'
+          alt='A rock, contains dinosaur fossils'
+          onClick={handleClick}
+        />
+        {dinoName.length > 0 ? (
+          <h2>{dinoName}</h2>
+        ) : (
+          <h2>Click on the rock to find a dinosaur!</h2>
+        )}
+        {dinoUrl.length > 0 && <h3>{dinoDesc}</h3>}
+        {dinoUrl.length > 0 && (
+          <a
+            href={dinoUrl}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='wikilink'
+          >
+            Click here to find out more
+          </a>
+        )}
+      </section>
+      <Link to='/' className='back'>
+        <img className='bone' src={Bone} alt='A bone, links to homepage' />
+      </Link>
+    </>
   );
 }
 export default DinoFacts;

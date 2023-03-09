@@ -13,7 +13,7 @@ import '../../resources/cv.pdf';
  */
 function NavBar() {
   return (
-    <div>
+    <nav>
       <div className='menu'>
         <HiMenu className='burger' />
       </div>
@@ -64,7 +64,7 @@ function NavBar() {
           </a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
 
