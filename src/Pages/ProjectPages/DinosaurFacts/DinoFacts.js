@@ -5,18 +5,19 @@ import Rock1 from './Rocks/Rock1.png';
 import Rock2 from './Rocks/Rock2.png';
 import Rock3 from './Rocks/Rock3.png';
 import Bone from './Rocks/bone.png';
+import GitBone from './Rocks/gitBone.png';
 
 function Dinosaur(props) {
   console.log('props', props);
   return (
     <li className='listitem'>
-      <p className='listp'>{props.name}</p>
+      <p className='listp listname'>{props.name}</p>
       <p className='listp listdesc'>{props.description}</p>
       <a
         href={props.url}
         target='_blank'
         rel='noopener noreferrer'
-        className='listp'
+        className='listp listlink'
       >
         Link
       </a>
@@ -72,6 +73,14 @@ function DinoFacts() {
 
   return (
     <div className='dinocontent'>
+      <nav className='dinoNav'>
+        <Link to='/' className='back'>
+          <img className='bone' src={Bone} alt='A bone, links to homepage' />
+        </Link>
+        <a href='https://github.com/AndyRoo0/portfolio/tree/main/src/Pages/ProjectPages/DinosaurFacts'>
+          <img className='bone' src={GitBone} alt='A bone, links to homepage' />
+        </a>
+      </nav>
       <section className='dinopage'>
         <img
           src={imageUrl}
@@ -96,9 +105,6 @@ function DinoFacts() {
           </a>
         )}
       </section>
-      <Link to='/' className='back'>
-        <img className='bone' src={Bone} alt='A bone, links to homepage' />
-      </Link>
       {dinoName.length > 0 && (
         <section className='history'>
           <ul className='list'>

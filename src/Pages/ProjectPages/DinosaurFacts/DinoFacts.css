@@ -29,10 +29,12 @@
   transform: translateY(4px);
 }
 
-.back {
+.dinoNav {
   position: fixed;
-  top: 50px;
-  left: 50px;
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .bone {
@@ -65,15 +67,16 @@
 }
 .listitem {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.listdesc {
+  max-width: 30%;
 }
 
 .listp {
   margin: 0;
   padding: 10px;
   text-align: center;
-}
-
-.listdesc {
-  max-width: 30%;
+  font-weight: bold;
 }
