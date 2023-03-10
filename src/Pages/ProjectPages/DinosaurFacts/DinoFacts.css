@@ -1,10 +1,13 @@
+.dinocontent {
+  background-image: url('./Rocks/background.jpg');
+}
+
 .dinopage {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url('./Rocks/dinobg.jpg');
 }
 
 .dinopage h2,
@@ -39,4 +42,38 @@
 
 .bone:hover {
   opacity: 80%;
+}
+
+.history {
+  display: flex;
+  justify-content: center;
+  background-image: url('./Rocks/bonebackground.png');
+  background-size: 300px 300px;
+  padding: 10px;
+  border: 2px solid var(--sky);
+  border-radius: 20px;
+  color: var(--sky);
+}
+
+.list {
+  min-width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.listitem {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listp {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.listdesc {
+  max-width: 30%;
 }
