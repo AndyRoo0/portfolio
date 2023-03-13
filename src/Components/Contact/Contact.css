@@ -7,9 +7,13 @@
   color: var(--sky);
 }
 
+.contact-text {
+  min-height: 50%;
+}
+
 .links {
   display: flex;
-  padding-top: 20vh;
+  padding-top: 100px;
   justify-content: space-around;
   align-items: center;
   font-size: calc(48px + 4vw);

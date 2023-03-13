@@ -10,15 +10,18 @@ function Contact() {
       <div className='line'>
         <h2>Want to get in touch?</h2>
       </div>
-      <p>
-        If you're interested in working together or just want to talk shop (or
-        talk fish) send me a message!
-      </p>
-      <p>
-        I read and do try to reply to every email I receive, but will prioritise
-        work related messages over just chatting. If you feel like I have missed
-        or forgotten about your message please do send a follow up.{' '}
-      </p>
+      <div className='contact-text'>
+        <p>
+          If you're interested in working together or just want to talk shop (or
+          talk fish) send me a message!
+        </p>
+        <p>
+          I read and do try to reply to every email I receive, but will
+          prioritise work related messages over just chatting. If you feel like
+          I have missed or forgotten about your message please do send a follow
+          up.{' '}
+        </p>
+      </div>
       <div className='links'>
         <div className='icon'>
           <a
