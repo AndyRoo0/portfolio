@@ -16,7 +16,11 @@ function About() {
           </p>
           <p>
             I have recently completed the{' '}
-            <a href='https://www.schoolofcode.co.uk/'>
+            <a
+              href='https://www.schoolofcode.co.uk/ '
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               School of Code Bootcamp
             </a>
             , and had a blast. I am very proud to have been chosen from a pool

@@ -18,6 +18,8 @@
   .project-table {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
   }
   .col2 img {
     padding: 2vh, 0, 0, 0;
@@ -32,8 +34,9 @@
 }
 
 .proj-title {
-  font-size: calc(10px + 4vw);
+  font-size: calc(20px + 4vw);
   margin: 1vh 0vh 1vh 0vh;
+  /* font-size: 6rem; */
   padding: 0;
 }
 
@@ -61,4 +64,45 @@
 
 .col2 img:hover {
   opacity: 80%;
+}
+
+.little-projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.little-header {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1500px) {
+  .little-projects {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+}
+
+.card1,
+.card2,
+.card3 {
+  text-align: center;
+  width: calc(200px + 10%);
+  padding: 30px;
+  margin: 0px;
+  background-color: var(--sky);
+  color: var(--ocean);
+}
+
+.card1 {
+  background-image: url('../../resources/dinosaurs.png');
+}
+
+.card2 {
+  background-color: var(--border);
+}
+
+.card3 {
+  background-color: var(--ocean);
 }

@@ -15,6 +15,7 @@
 
 .paragraph p {
   max-width: 100%;
+  font-size: calc(2rem);
 }
 
 .portrait {
@@ -30,15 +31,23 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 961px) {
+@media only screen and (max-width: 1280px) {
   .inline {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .portrait {
     height: auto;
     width: 20rem;
     padding: 0;
     object-fit: contain;
+  }
+
+  .paragraph {
+  }
+
+  .paragraph p {
+    font-size: calc(1rem);
   }
 }

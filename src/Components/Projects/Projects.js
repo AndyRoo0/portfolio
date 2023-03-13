@@ -6,7 +6,7 @@ import ProjectCard from './ProjectCard';
 
 function Projects() {
   return (
-    <div className='projects'>
+    <section className='projects'>
       <div className='line'>
         <h2>What have I been working on?</h2>
       </div>
@@ -30,7 +30,35 @@ function Projects() {
           page: '/portfolio',
         }}
       />
-    </div>
+      <section>
+        <h2 className='little-header'>and more!</h2>
+        <div className='little-projects'>
+          <div className='card1'>
+            <a
+              href='https://www.andrewrohling.co.uk/dinofacts'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <h2>Dinosaur Digs</h2>
+            </a>
+          </div>
+          <div className='card2'>
+            <a
+              href='https://andrewrohling.co.uk/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <h2>Portfolio</h2>
+            </a>
+          </div>
+          <div className='card3'>
+            <a href='#' target='_blank' rel='noopener noreferrer'>
+              <h2>More Coming Soon</h2>
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
   );
 }
 
