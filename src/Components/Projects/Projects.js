@@ -1,8 +1,9 @@
 import React from 'react';
 import './Projects.css';
 import indygo from '../../resources/IndyGo image.png';
-import andrew from '../../resources/andrew.png';
+import ripple from '../../resources/ripple logo.png';
 import ProjectCard from './ProjectCard';
+import { BsGithub } from 'react-icons/bs';
 
 function Projects() {
   return (
@@ -22,12 +23,12 @@ function Projects() {
       />
       <ProjectCard
         details={{
-          title: 'Portfolio',
-          link: 'https://andrewrohling.co.uk/',
-          desc: "I built this site using Create-React-App, Javascript, HTML & CSS. The aim of this project is to solidify my understanding of the basic web tools, and to create my space on the web where I can experiment and show off what I'm working on at any time.",
-          img: andrew,
-          alt: 'Portfolio Home Page',
-          page: '/portfolio',
+          title: 'Ripple',
+          link: 'https://andrewrohling.co.uk/ripple',
+          desc: 'A commercial grade website for an aquarium retailer. The aim of this project is to further my understanding of design tools such as Figma, and to add to my knowledge of React, Javascript & CSS. Not yet deployed, click on the image to see my current progress!',
+          img: ripple,
+          alt: 'Ripple Logo',
+          page: '/ripple',
         }}
       />
       <section>
@@ -44,15 +45,17 @@ function Projects() {
           </div>
           <div className='card2'>
             <a
-              href='https://andrewrohling.co.uk/'
+              href='https://github.com/AndyRoo0/portfolio'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <h2>Portfolio</h2>
+              <h2>
+                This Portfolio! - <BsGithub />
+              </h2>
             </a>
           </div>
           <div className='card3'>
-            <a href='#' target='_blank' rel='noopener noreferrer'>
+            <a href='/' target='_blank' rel='noopener noreferrer'>
               <h2>More Coming Soon</h2>
             </a>
           </div>

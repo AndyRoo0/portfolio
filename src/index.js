@@ -7,6 +7,7 @@ import IndyGo from './Pages/ProjectPages/IndyGo';
 import Portfolio from './Pages/ProjectPages/Portfolio';
 import WikiViewer from './Pages/ProjectPages/WikiViewer/WikiViewer';
 import DinoFacts from './Pages/ProjectPages/DinosaurFacts/DinoFacts';
+import Ripple from './Pages/ProjectPages/Ripple';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
             <Route path='/portfolio' element={<Portfolio />}></Route>
             <Route path='/wikiviewer' element={<WikiViewer />}></Route>
             <Route path='/dinofacts' element={<DinoFacts />}></Route>
+            <Route path='/ripple' element={<Ripple />}></Route>
           </>
         </Routes>
       </>

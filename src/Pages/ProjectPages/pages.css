@@ -1,12 +1,19 @@
 .content {
-  height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: var(--sky);
+  width: 80%;
 }
 
-.page-title {
-  font-size: calc(8px + 4vh);
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content img {
+  height: auto;
+  width: 100%;
+  max-width: 800px;
 }
