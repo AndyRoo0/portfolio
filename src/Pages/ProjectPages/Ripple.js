@@ -24,7 +24,7 @@ function Ripple() {
         </p>
         <p>This project is still under construction! Check back soon...</p>
         <p>Current Stage: Figma high-fidelity wireframing</p>
-        <img src={ripple} alt='Ripple homepage'></img>
+        <img src={ripple} alt='Ripple homepage' className='rippleimg'></img>
         <Link to='/'>
           <p>Back to home</p>
         </Link>

@@ -26,6 +26,17 @@ p {
   font-weight: 1;
 }
 
+ul,
+ol {
+  font-size: calc(10px + 0.5vw);
+  word-spacing: 2px;
+  font-weight: 1;
+}
+
+li:not(:last-child) {
+  margin-bottom: 3px;
+}
+
 a {
   color: var(--sky);
   text-decoration: none;
